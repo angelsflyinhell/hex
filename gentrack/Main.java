@@ -13,7 +13,6 @@ public class Main
         }
         keysLine += ")";
         
-        
         BPM bpm = new BPM(80, 150);
         System.out.println("BPM: " + bpm.randomBPM() + ", Scale: " + scale + " " + keysLine);
     }
